@@ -2,12 +2,47 @@
   text-align: center;
 }
 
-/* body {
+body {
   background: gray;
-} */
+}
 
 .smash-banner {
   width: 100vw;
   height: 35vh;
   clip-path: inset(0 0 25px 0);
+}
+
+.firstRowParent {
+  display: flex;
+  flex-direction: row;
+}
+
+.stats {
+  width: 50vw;
+  height: 25vh;
+  /* background: green; */
+  border: 3px solid black;
+
+}
+.addChar {
+  width: 50vw;
+  height: 25vh;
+  /* background: blue; */
+  border: 3px solid black;
+}
+.portrait-img {
+  height: 20vh;
+  width: auto;
+}
+.full-char-img {
+  height: 55vh;
+  width: auto;
+}
+.test {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  
 }
