@@ -32,69 +32,69 @@ module.exports = [
         "tier": 'B',
         "id": 3,
         "img": "https://www.ssbwiki.com/images/thumb/8/84/Link_SSBU.png/640px-Link_SSBU.png"
+    },
+    {
+        "name": 'Samus',
+        "game": 'Metroid',
+        "tier": 'D',
+        "id": 4,
+        "img": "https://www.ssbwiki.com/images/thumb/0/03/Samus_SSBU.png/1200px-Samus_SSBU.png"
+    },
+    {
+        "name": 'Yoshi',
+        "game": 'Super Mario',
+        "tier": 'A',
+        "id": 5,
+        "img": "https://www.ssbwiki.com/images/thumb/8/8d/Yoshi_SSBU.png/1200px-Yoshi_SSBU.png"
+    },
+    {
+        "name": 'Kirby',
+        "game": "Kirby's Dreamland",
+        "tier": 'E',
+        "id": 6,
+        "img": "https://www.ssbwiki.com/images/thumb/0/07/Kirby_SSBU.png/1200px-Kirby_SSBU.png"
+    },
+    {
+        "name": 'Fox',
+        "game": 'Star Fox',
+        "tier": 'S',
+        "id": 7,
+        "img": "https://www.ssbwiki.com/images/thumb/2/2f/Fox_SSBU.png/1200px-Fox_SSBU.png"
+    },
+    {
+        "name": 'Pikachu',
+        "game": 'Pokémon',
+        "tier": 'S',
+        "id": 8,
+        "img": "https://www.ssbwiki.com/images/thumb/9/93/Pikachu_SSBU.png/1200px-Pikachu_SSBU.png"
+    },
+    {
+        "name": 'Luigi',
+        "game": 'Super Mario',
+        "tier": 'B',
+        "id": 9,
+        "img": "https://www.ssbwiki.com/images/thumb/b/bb/Luigi_SSBU.png/1093px-Luigi_SSBU.png"
+    },
+    {
+        "name": 'Captain Falcon',
+        "game": 'F-Zero',
+        "tier": 'B',
+        "id": 10,
+        "img": "https://www.ssbwiki.com/images/thumb/d/da/Captain_Falcon_SSBU.png/1200px-Captain_Falcon_SSBU.png"
+    },
+    {
+        "name": 'Ness',
+        "game": 'Mother: Earthbound',
+        "tier": 'B',
+        "id": 11,
+        "img": "https://www.ssbwiki.com/images/thumb/8/82/Ness_SSBU.png/1200px-Ness_SSBU.png"
+    },
+    {
+        "name": 'Jigglypuff',
+        "game": 'Pokémon',
+        "tier": 'E',
+        "id": 12,
+        "img": "https://www.ssbwiki.com/images/thumb/6/6a/Jigglypuff_SSBU.png/1200px-Jigglypuff_SSBU.png"
     }
-    // {
-    //     "name": 'Samus',
-    //     "game": 'Metro"id"',
-    //     "tier": 'D',
-    //     "id": 4,
-    //     "img": 
-    // },
-    // {
-    //     "name": 'Yosi',
-    //     "game": 'Super Mario',
-    //     "tier": 'A',
-    //     "id": 5,
-    //     "img": 
-    // },
-    // {
-    //     "name": 'Kirby',
-    //     "game": "Kirby's Dreamland",
-    //     "tier": 'E',
-    //     "id": 6,
-    //     "img": {kirbyImg}
-    // },
-    // {
-    //     "name": 'Fox',
-    //     "game": 'Star Fox',
-    //     "tier": 'S',
-    //     "id": 7,
-    //     "img": {foxImg}
-    // },
-    // {
-    //     "name": 'Pikachu',
-    //     "game": 'Pokémon',
-    //     "tier": 'S',
-    //     "id": 8,
-    //     "img": {pikachuImg}
-    // },
-    // {
-    //     "name": 'Luigi',
-    //     "game": 'Super Mario',
-    //     "tier": 'B',
-    //     "id": 9,
-    //     "img": {luigiImg}
-    // },
-    // {
-    //     "name": 'Captain Falcon',
-    //     "game": 'F-Zero',
-    //     "tier": 'B',
-    //     "id": 10,
-    //     "img": {capFalcImg}
-    // },
-    // {
-    //     "name": 'Ness',
-    //     "game": 'Mother: Earthbound',
-    //     "tier": 'B',
-    //     "id": 11,
-    //     "img": {nessImg}
-    // },
-    // {
-    //     "name": 'Jigglypuff',
-    //     "game": 'Pokémon',
-    //     "tier": 'E',
-    //     "id": 12,
-    //     "img": {jigglypuffImg}
-    // }
 ]
 

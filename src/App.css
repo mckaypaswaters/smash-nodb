@@ -3,13 +3,20 @@
 }
 
 body {
-  background: gray;
+  background: linear-gradient(45deg, white, 10%, gray, black);
 }
 
 .smash-banner {
   width: 100vw;
   height: 35vh;
   clip-path: inset(0 0 25px 0);
+}
+.headerText {
+  margin-top: 0;
+}
+.smashBall {
+  height: 5vh;
+  width: auto;
 }
 
 .firstRowParent {
@@ -22,7 +29,16 @@ body {
   height: 25vh;
   /* background: green; */
   border: 3px solid black;
-
+}
+/* .wins-row {
+  display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+} */
+.wins {
+  margin: 2.5vh 0 2.5vh 0;
 }
 .addChar {
   width: 50vw;
@@ -31,7 +47,7 @@ body {
   border: 3px solid black;
 }
 .portrait-img {
-  height: 20vh;
+  height: 18vh;
   width: auto;
 }
 .full-char-img {
@@ -44,5 +60,7 @@ body {
   width: auto;
   justify-content: space-evenly;
   align-items: center;
-  
+}
+.char-box {
+  border: 2px solid black;
 }

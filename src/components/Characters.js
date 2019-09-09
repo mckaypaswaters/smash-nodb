@@ -12,6 +12,7 @@ export default class Characters extends Component {
                 <FullChar
                     addToTeamFn = {this.props.addToTeamFn}
                     teamArr = {this.props.teamArr}
+                    removeCharFn = {this.props.removeCharFn}
                 />
             </div>
         )
