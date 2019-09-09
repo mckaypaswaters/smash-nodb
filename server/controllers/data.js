@@ -66,7 +66,7 @@ module.exports = [
         "game": 'Pokémon',
         "tier": 'S',
         "id": 8,
-        "img": "https://www.ssbwiki.com/images/thumb/9/93/Pikachu_SSBU.png/1200px-Pikachu_SSBU.png"
+        "img": "https://i.imgur.com/3qQUjcS.png"
     },
     {
         "name": 'Luigi',

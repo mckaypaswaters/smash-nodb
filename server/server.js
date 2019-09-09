@@ -17,9 +17,12 @@ app.delete('/api/team/:id', teamCtrl.deleteTeam)
 app.get('/api/team/:id', fullCharCtrl.getFullChar)
 app.get('/api/stats/wins', statCtrl.getWinNum) // Keep the state if page is refreshed
 app.get('/api/stats/losses', statCtrl.getLossNum) // ""
+app.get('/api/stats/stat1', statCtrl.getStat1Num) // ""
+app.get('/api/stats/stat2', statCtrl.getStat2Num) // ""
 app.put('/api/wins/:wins', statCtrl.updateWins) // Takes the input and displays it on wins
 app.put('/api/losses/:losses', statCtrl.updateLosses) // Takes the input and displays it on losses
-app.post('/api/stats', statCtrl.addStat1)
+app.put('/api/stat1/:stat1', statCtrl.updateStat1) // Takes the input and displays it on stat1
+app.put('/api/stat2/:stat2', statCtrl.updateStat2) // Takes the input and displays it on stat2
 
 
 app.listen(SERVER_PORT, () => console.log(`${SERVER_PORT} characters on Smash?!`))

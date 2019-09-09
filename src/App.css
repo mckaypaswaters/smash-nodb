@@ -30,15 +30,15 @@ body {
   /* background: green; */
   border: 3px solid black;
 }
-/* .wins-row {
-  display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-} */
 .wins {
   margin: 2.5vh 0 2.5vh 0;
+}
+.wins-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -15px;
 }
 .addChar {
   width: 50vw;

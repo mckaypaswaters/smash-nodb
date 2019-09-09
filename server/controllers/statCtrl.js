@@ -1,5 +1,7 @@
-winNum = 0
-loseNum = 0
+let winNum = 0
+let loseNum = 0
+let stat1Num = 0
+let stat2Num = 0
 
 statsArr = []
 
@@ -9,6 +11,12 @@ module.exports = {
     },
     getLossNum: (req, res) => {
         res.status(200).send(loseNum)
+    },
+    getStat1Num: (req, res) => {
+        res.status(200).send(stat1Num)
+    },
+    getStat2Num: (req, res) => {
+        res.status(200).send(stat2Num)
     },
     updateWins: (req, res) => {
         let {wins} = req.params
@@ -20,11 +28,16 @@ module.exports = {
         loseNum = losses
         res.status(200).send(loseNum)
     },
-    addStat1: (req, res) => {
-        // http://localhost:5000/api/stats/?thing=search
-        // req.query = search
-        let {input} = req.body
-        statsArr.push(input)
-        res.status(200).send(statsArr)
+    updateStat1: (req, res) => {
+        let {stat1} = req.params
+        console.log(stat1)
+        stat1Num = stat1
+        res.status(200).send(stat1Num)
+    },
+    updateStat2: (req, res) => {
+        let {stat2} = req.params
+        stat2Num = stat2
+        res.status(200).send(stat2Num)
     }
+    
 }
